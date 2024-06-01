@@ -1,0 +1,25 @@
+[
+    {
+        "step_title": "Basic configuration",
+        "items": [
+            {
+                "type": "textfield",
+                "desc": "Please enter your Flightradar24 sharing key.",
+                "subitems": [
+                    {
+                        "key": "wizard_fr24_sharing_key",
+                        "desc": "Sharing key",
+                        "defaultValue": "0000000000000000",
+                        "validator": {
+                            "allowBlank": false,
+                            "regex": {
+                                "expr": "/^[a-zA-Z\\d]{16}$/",
+                                "errorText": "Sharing key must have exactly 16 characters."
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

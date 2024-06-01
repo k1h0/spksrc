@@ -1,0 +1,6 @@
+rsc:include/libhackrf/hackrf.h
+lib:lib/libhackrf.a
+lnk:lib/libhackrf.so
+lnk:lib/libhackrf.so.0
+lib:lib/libhackrf.so.0.9.0
+rsc:rules.d/53-hackrf.rules
